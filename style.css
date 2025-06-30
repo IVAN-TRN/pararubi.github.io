@@ -1,0 +1,56 @@
+body {
+  font-family:  "Winky Rough", sans-serif;
+  background-color: #e6f4ea;
+  color: #2e4d3d; 
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+
+  background-image: url('flower-12275_512.gif'); 
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  background-attachment: fixed; 
+  background-size: 300px auto;
+}
+
+#contenedor {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f0fdf4; 
+  box-shadow: 0 0 10px rgba(46, 77, 61, 0.1);
+}
+
+h1, h2, h3 {
+  color: #3e6e5c; 
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #a5d6a7; 
+  color: #1b3c32;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #81c784; 
+}
+
+.parte {
+  display: none;
+}
+
+.parte.active {
+  display: block;
+}
